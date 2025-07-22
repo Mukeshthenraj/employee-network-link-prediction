@@ -55,7 +55,7 @@ pip install numpy pandas networkx scikit-learn matplotlib
 
 ### 2. Run the Notebook or Script
 
-You can run the `employee_network_link_prediction.py` script or the `assignment4.ipynb` notebook (if converted to this repo) for:
+You can run the `employee_network_link_prediction.py` script (if converted to this repo) for:
 
 - Data loading and preprocessing
 - Graph statistics computation
