@@ -1,7 +1,7 @@
 
 # Employee Network Link Prediction 🔗📊
 
-This project focuses on **link prediction** within an employee email communication network. It aims to predict future email connections using graph-based machine learning techniques. It analyzes the network structure and predicts possible future links by leveraging network statistics and various features.
+This project leverages **Logistic Regression** and **Random Forest Classifier** models to analyze a company’s internal email communication network. The goal is to **predict management roles, future employee connections, and estimate salaries** based on network graph data.
 
 ---
 
@@ -42,6 +42,16 @@ employee-network-link-prediction/
 - 📈 **Visualization of Top Predicted Links**
 - 🧠 **Feature Engineering** on graph metrics like clustering coefficient, degree, path length
 - 🖼️ **Insightful Graph Visualizations** for edge predictions and management insights
+
+---
+
+---
+
+## 📌 Algorithms Used
+
+- **Logistic Regression**: For binary classification (management vs. non-management)
+- **Random Forest Classifier**: For link prediction tasks
+- **Graph Metrics**: Degree centrality, resource allocation index, Adamic-Adar index, preferential attachment, Jaccard coefficient, etc.
 
 ---
 
@@ -107,4 +117,4 @@ G5 --> clustering: 0.3650, path_len: 8.53, std_deg: 0.64, max_deg: 7
 
 ## 📜 License
 
-This project is open for educational and non-commercial use.
+This project is open for educational and non-commercial use under the MIT license.
